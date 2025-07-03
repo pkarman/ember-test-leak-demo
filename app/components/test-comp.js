@@ -14,4 +14,9 @@ export default Component.extend({
     this._super(...arguments);
     console.log('test-comp.willDestroyElement');
   },
+
+  willDestroy() {
+    this._super(...arguments);
+    console.log('test-comp.willDestroy');
+  },
 });
